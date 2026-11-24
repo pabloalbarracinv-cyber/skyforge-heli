@@ -20,7 +20,7 @@ export const MissionOverlay: React.FC<MissionOverlayProps> = ({
   return (
     <>
       {/* Tarjeta flotante de objetivo activo arriba a la izquierda/centro */}
-      <div className="pointer-events-none fixed top-16 left-3 sm:left-5 z-20 max-w-sm select-none">
+      <div className="pointer-events-none fixed top-24 sm:top-16 left-3 right-3 sm:right-auto sm:left-5 z-20 sm:max-w-sm select-none">
         <div className="hud-glass rounded-2xl px-4 py-2.5 text-[#F6F1E6]">
           <div className="flex items-center justify-between gap-3">
             <span className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider text-amber-300">
