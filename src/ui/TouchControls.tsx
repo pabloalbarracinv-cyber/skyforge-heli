@@ -54,7 +54,7 @@ export const TouchControls: React.FC<TouchControlsProps> = ({
 
   return (
     <div
-      className="pointer-events-none fixed inset-x-0 bottom-36 sm:bottom-32 z-30 flex items-center justify-between px-4 sm:px-10 select-none touch-none"
+      className="pointer-events-none fixed inset-x-0 bottom-44 sm:bottom-36 z-30 flex items-center justify-between px-4 sm:px-10 select-none touch-none"
       data-ui-interactive="true"
     >
       {/* Pad Izquierdo: Colectivo + Yaw */}
